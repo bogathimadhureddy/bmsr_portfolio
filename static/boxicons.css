@@ -3,9 +3,7 @@
   font-weight: normal;
   font-style: normal;
 
-  src: url('../fonts/boxicons.eot');
-  src: url('static/boxicons.ttf') format('truetype'),
-    url('../fonts/boxicons.svg?#boxicons') format('svg');
+  src: url('static/boxicons.ttf') format('truetype')
 }
 
 .bx {
