@@ -6,6 +6,21 @@
     src: url('static/fonts/boxicons.woff') format('woff'),
         url('static/fonts/boxicons.ttf') format('truetype');
 }
+/* Media query for screens smaller than 600px */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;  /* Adjust font size for smaller screens */
+    }
+
+    /* Additional styles for smaller screens */
+    .container {
+        width: 100%;  /* Make the container full width on smaller screens */
+        padding: 10px; /* Add padding or other styles for smaller screens */
+        /* Add more styles for the .container on smaller screens as needed */
+    }
+
+    /* You can add more styles for other elements on smaller screens as needed */
+}
 
 body {
     font-family: 'boxicons', sans-serif;
