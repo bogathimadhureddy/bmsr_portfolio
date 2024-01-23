@@ -3,8 +3,8 @@
 /* static/madhu.css */
 @font-face {
     font-family: 'boxicons';
-    src: url('..fonts/boxicons.woff') format('woff'),
-        url('../fonts/boxicons.ttf') format('truetype');
+    src: url('static/fonts/boxicons.woff') format('woff'),
+        url('static/fonts/boxicons.ttf') format('truetype');
 }
 
 body {
